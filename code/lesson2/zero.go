@@ -14,5 +14,4 @@ func main()  {
 	fmt.Printf("%v\n", x)
 	fmt.Printf("%v\n", y)
 	fmt.Printf("%v\n", z)
-	fmt.Printf("%v\n", p)
 }
