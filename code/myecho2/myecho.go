@@ -11,5 +11,4 @@ var sep = flag.String("s"," ", "separatpr")
 func main()  {
 	flag.Parse()
 	fmt.Print(strings.Join(flag.Args(), *sep))
-
 }
