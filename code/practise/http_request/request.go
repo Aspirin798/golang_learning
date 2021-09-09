@@ -1,1 +1,6 @@
-package http_request
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
