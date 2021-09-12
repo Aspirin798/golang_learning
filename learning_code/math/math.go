@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golanglearning/code/golib/thirdlib"
+	"golanglearning/learning_code/golib/thirdlib"
 
 )
 
