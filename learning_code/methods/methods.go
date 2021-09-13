@@ -16,11 +16,11 @@ func (r *rect) perim() int {
 
 func main(){
 	r := rect{width: 10, height: 5}
-	fmt.Println(r.area())
-	fmt.Println(r.perim())
+	fmt.Println("area:",r.area())
+	fmt.Println("perim:",r.perim())
 
 	rp := &r
-	fmt.Println(rp.area())
-	fmt.Println(rp.perim())
+	fmt.Println("area:",rp.area())
+	fmt.Println("perim:",rp.perim())
 
 }
