@@ -20,7 +20,9 @@ func main() {
 	go func(msg string) {
 		fmt.Println(msg)
 	}("going")
-
+	time.Sleep(time.Second)
+	time.Sleep(time.Second)
+	time.Sleep(time.Second)
 	time.Sleep(time.Second)
 	fmt.Println("Done")
 }
