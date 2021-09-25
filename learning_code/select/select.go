@@ -21,10 +21,10 @@ func main() {
 
 	for i := 0; i < 2; i++ {
 		select {
-		case msg1 := <-c1:
-			fmt.Println("received", msg1)
-		case msg1 := <-c2:
-			fmt.Println("received", msg1)
+		case msg := <-c1:
+			fmt.Println("received", msg)
+		case msg := <-c2:
+			fmt.Println("received", msg)
 		}
 	}
 	time.Sleep(1 * time.Second)
